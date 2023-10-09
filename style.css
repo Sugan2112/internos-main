@@ -102,43 +102,124 @@ a {
 }
 /* -------------project -------------------- */
 .project {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 112px;
+}
+.project img {
+  border-radius: 0 326px 0 123px;
+  margin-left: 77px;
 }
 .wrap {
+  position: relative;
 }
 .project-title {
+  color: #292F36;
+  font-size: 50px;
+  line-height: 65px;
+  margin-bottom: 42px;
 }
 .project-text {
+  max-width: 531px;
+}
+.project-btn {
+  position: absolute;
+  bottom: 15px;
+  background-color: #292F36;
+  color:white;
+  padding: 22px 50px;
+  border-radius: 18px;
+  border: none;
+}
+.project-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 /* -------------brand -------------------- */
 .brand {
+  border-radius: 25px;
+  background: linear-gradient(0deg, #F4F0EC 0%, #F4F0EC 100%), #FFF;
+  margin-bottom: 112px;
 }
 .brand-list {
-}
-.brand-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px;
 }
 /* -------------projects -------------------- */
 .projects {
+  text-align: center;
+  margin-bottom: 112px;
 }
 .projects-title {
+  color: #292F36;
+  font-size: 47px;
+  margin-bottom: 15px;
 }
 .projects-text {
+  color: #4D5053;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 .projects-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .project-item {
+  margin: 20px;
+  max-width: 560px;
+}
+.project-item img {
+  border-radius: 0px 80px 0px 0px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.project-item h2 {
+  color: #292F36;
+  font-size: 24px;
+  line-height: 37.5px;
 }
 /* -------------footer -------------------- */
 .footer {
+  background: linear-gradient(0deg, #F4F0EC 0%, #F4F0EC 100%), #FFF;
 }
 .footer-info {
+  padding: 33px;
+  max-width: 325px;
 }
 .footer-logo {
+  margin-bottom: 25px;
 }
 .footer-text {
+  margin-bottom: 25px;
 }
 .social-list {
+  display: flex;
+  flex-direction: row;
 }
 .social-item {
+  margin-right: 40px;
+}
+.social-item a:hover > svg {
+  fill: #CDA274;
+}
+.social-item svg {
+  max-width: 20px;
 }
 .footer-copyright {
+  background: #0F0F0E;
+  color: #CED1D4;
+  text-align: center;
+}
+.footer-copyright a {
+  color: #CDA274;
 }
