@@ -79,12 +79,13 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 37.5px;
+  padding: 0 37.5px;
 }
 .features-item {
   align-items: center;
   width: 33.33%;
   min-width: 300px;
+  padding: 75px 0;
 }
 .features-item p {
   margin: 12px 52px;
