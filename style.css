@@ -216,6 +216,7 @@ a {
   max-width: 20px;
 }
 .footer-copyright {
+  padding: 25px 0;
   background: #0F0F0E;
   color: #CED1D4;
   text-align: center;
