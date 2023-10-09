@@ -81,9 +81,6 @@ a {
 .features-item {
   align-items: center;
 }
-.features-item {
-  text-align: center;
-}
 .features-item p {
   margin: 12px 52px;
   color: #4D5053;
@@ -94,7 +91,6 @@ a {
   letter-spacing: 0.22px;
 }
 .features-item h3 {
-  text-align: center;
   color: #292F36;
   text-align: center;
   font-size: 25px;
