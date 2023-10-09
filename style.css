@@ -48,6 +48,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0px 0px 0px 290px;
+    margin-bottom: 112px;
 }
 .banner-title {
     color: #292F36;
@@ -69,18 +70,22 @@ a {
 }
 /* -------------fetures -------------------- */
 .fetures {
-  margin: 112px auto;
+  margin-bottom: 112px;
   border-radius: 15px;
   background-color: #F4F0EC;
-  width: 1200px;
+  max-width: 1200px;
 }
 .features-list {
   display: flex;
   flex-direction: row;
-  padding: 75px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 37.5px;
 }
 .features-item {
   align-items: center;
+  width: 33.33%;
+  min-width: 300px;
 }
 .features-item p {
   margin: 12px 52px;
