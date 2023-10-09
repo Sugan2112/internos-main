@@ -69,9 +69,10 @@ a {
 }
 /* -------------fetures -------------------- */
 .fetures {
-  margin: 112px 120px;
+  margin: 112px auto;
   border-radius: 15px;
   background-color: #F4F0EC;
+  width: 1200px;
 }
 .features-list {
   display: flex;
