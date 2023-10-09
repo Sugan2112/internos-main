@@ -23,10 +23,6 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-.logo {
-}
-.nav {
-}
 .nav-list {
     display: flex;
 }
