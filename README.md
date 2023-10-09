@@ -1,0 +1,1 @@
+# Макет [link](https://www.figma.com/file/yvEOdkbyTWFRZCv2JuF3sU/InternoS?mode=dev)
